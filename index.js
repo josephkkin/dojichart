@@ -6,6 +6,7 @@ var TimePanel = require("./src/panel/TimePanel");
 var TimeValuePanel = require("./src/panel/TimeValuePanel");
 var TimeLabelsPanel = require("./src/panel/TimeLabelsPanel");
 var CandleLayer = require("./src/layer/CandleLayer");
+var LineLayer = require("./src/layer/LineLayer");
 var OHLCLayer = require("./src/layer/OHLCLayer");
 var ValueGridLayer = require("./src/layer/ValueGridLayer");
 var TimeGridLayer = require("./src/layer/TimeGridLayer");
@@ -31,6 +32,7 @@ var exports = {
   /** @namespace layer */
   layer: {
     CandleLayer: CandleLayer,
+    LineLayer: LineLayer,
     OHLCLayer: OHLCLayer,
     ValueGridLayer: ValueGridLayer,
     TimeGridLayer: TimeGridLayer,
